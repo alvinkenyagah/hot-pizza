@@ -44,6 +44,16 @@ ul li a:hover {
   background: white;
 }
 
+/*home section */
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*utility classes */
 .h-primary {
   padding: 13px;
   font-size: 3.5rem;
