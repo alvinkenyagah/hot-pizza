@@ -4,7 +4,7 @@
 #### By **Alvin Kenyagah**
 ## Description
  I will be creating Web application for the business Pizza Joint where customers can order different sizes of pizzas with one or more toppings.
-  The live link to the landing page:  https://alvinkenyagah.github.io/WeekThreeIP/
+  The live link to the landing page:  https://alvinkenyagah.github.io/WeekFourIp/
 ## Setup/Installation Requirements
 * An internet connection.
 * Browser.
