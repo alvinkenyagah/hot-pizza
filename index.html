@@ -41,48 +41,53 @@
           <form>
             <label for="npizzas">Select your preffered Pizza size:</label><br />
             <select id="sizes">
-              <option value="large">Large 1000</option>
-              <option value="medium">Medium 700</option>
-              <option value="small">Small 500</option>
+              <option value="1000">Large 1000</option>
+              <option value="700">Medium 700</option>
+              <option value="500">Small 500</option>
             </select>
-          </form>
+          
+            <br>
+            <br>
+          
+            <label for="npizzas">Select your preffered Pizza crust:</label><br/>
+            <select id="crusts">
+              <option value="150">Cracker Crust 150</option>
+              <option value="100">Thin Crust 100</option>
+              <option value="200">Thick Crust Pizza 200</option>
+            </select>
+
           <br>
-          <form>
-            <label for="npizzas">Select your preffered Pizza crust:</label><br />
-            <select id="crust">
-              <option value="cracker">Cracker Crust 150</option>
-              <option value="thin">Thin Crust 100</option>
-              <option value="thick">Thick Crust Pizza 200</option>
-            </select>
-          </form>
-          <br>
-          <form>
-            <label for="npizzas">Select your preffered Pizza topping:</label><br />
-            <select id="toppings">
-              <option value="chicken">Chicken 250</option>
-              <option value="mushroom">Mashroom 200</option>
-              <option value="beef">Beef 200</option>
-              <option value="pineapple">Pineapple 150</option>
-            </select>
-          </form>
           <br>
 
-          <form>
+          <label for="npizzas">Select your preffered Pizza topping:</label><br />
+            <select id="topping">
+              <option value="300">Chicken 300</option>
+              <option value="250">Mashroom 250</option>
+              <option value="200">Beef 200</option>
+              <option value="150">Pineapple 150</option>
+            </select>
+          
+            <br>
+            <br>
+          
+          
             <label for="npizzas">Enter the amount of pizzas:</label><br />
-            <input type="text" id="npizza" name="fname" value="0" /><br />
-          </form>
+            <input type="number" id="npizza" name="fname" value="1" /><br />
+          
           <br>
-      
-
-        <form>
-          <label for="npizzas">Select preffered delivery mode:</label><br />
-          <select name="Delivery">
-            <option value="collect">Self-pick up</option>
-            <option value="delivered">Delivered 200</option>
-          </select>
-        </form>
-        <br>
-        <button id="submit">Order Now</button></a>
+          
+          
+            <label for="npizzas">Select preffered delivery mode:</label><br />
+            <select id="delivery">
+              <option value="0">Self-pick up</option>
+              <option value="200">Delivered 200</option>
+            </select>
+            <br>
+            <br>
+            <button id="submit">Order Now</button>
+          </form>
+         
+          
       </div>
     </section>
     <footer id="mail">
@@ -91,6 +96,7 @@
         <a href="mailto:hege@example.com">help@pizzajoint.com</a><br />2022
       </p>
     </footer>
+    <script src="js/jquery.js"></script>
     <script src="/js/scripts.js"></script> 
   </body>
 </html>
