@@ -1,4 +1,4 @@
-//smooth scroll using #target
+//smooth scroll into view
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
