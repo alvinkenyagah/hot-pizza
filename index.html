@@ -40,7 +40,7 @@
         <div class="sizes">
           <form>
             <label for="npizzas">Select your preffered Pizza size:</label><br />
-            <select name="sizes">
+            <select id="sizes">
               <option value="large">Large 1000</option>
               <option value="medium">Medium 700</option>
               <option value="small">Small 500</option>
@@ -49,20 +49,20 @@
           <br>
           <form>
             <label for="npizzas">Select your preffered Pizza crust:</label><br />
-            <select name="sizes">
-              <option value="large">Cracker Crust 150</option>
-              <option value="medium">Thin Crust 100</option>
-              <option value="small">Thick Crust Pizza 200</option>
+            <select id="crust">
+              <option value="cracker">Cracker Crust 150</option>
+              <option value="thin">Thin Crust 100</option>
+              <option value="thick">Thick Crust Pizza 200</option>
             </select>
           </form>
           <br>
           <form>
             <label for="npizzas">Select your preffered Pizza topping:</label><br />
-            <select name="toppings">
-              <option value="pineapple">Chicken 250</option>
+            <select id="toppings">
+              <option value="chicken">Chicken 250</option>
               <option value="mushroom">Mashroom 200</option>
-              <option value="chicken">Beef 200</option>
-              <option value="beef">Pineapple 150</option>
+              <option value="beef">Beef 200</option>
+              <option value="pineapple">Pineapple 150</option>
             </select>
           </form>
           <br>
@@ -82,7 +82,7 @@
           </select>
         </form>
         <br>
-        <button class="btn">Order Now</button></a>
+        <button id="submit">Order Now</button></a>
       </div>
     </section>
     <footer id="mail">
@@ -91,6 +91,6 @@
         <a href="mailto:hege@example.com">help@pizzajoint.com</a><br />2022
       </p>
     </footer>
-    <script src="/js/scripts.js"></script>
+    <script src="/js/scripts.js"></script> 
   </body>
 </html>
