@@ -8,3 +8,15 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     });
   });
 });
+
+//calculate cost of order
+
+var toppings = getElementById("topping").value;
+var crusts = getElementById("crusts").value;
+var sizes = getElementById("sizes").value;
+var delivery = getElementById("delivery").value;
+var npizzas = parseFloat(getElementById("npizzs").value);
+
+function myFunction() {
+  alert("Confirmed Your order:  ");
+}
