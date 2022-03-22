@@ -93,5 +93,38 @@ ul li a:hover {
   background: url(https://lh3.googleusercontent.com/TRmTeUT360MqepZ4qc1AS6C5BW7pzp4cnP40z-khNsyAwS4p7uRpzCtlB82vmr4EloeYhx4eygwV0AffQqTt9BxU_PDJDIizIVwIDDSaSGWvWxAj1xJ4zZJSRhbFxep2C_09d_FO6w=w2400);
   width: 100%;
   margin-top: 15%;
-  height: 600px;
+  height: 1080px;
+}
+
+.sizes {
+  text-align: center;
+  font-size: 0.7cm;
+  color: white;
+  border-left: 1cm;
+  float: inline-start;
+  background-color: #000;
+  opacity: 0.75;
+  width: 60%;
+  padding: 10px;
+  margin: 100px auto;
+  border-radius: 3%;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  color: black;
+  background-color: #8b451365;
+}
+
+.content {
+  color: beige;
+  float: inline-start;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.75;
+  width: 45%;
+  padding: 10px;
+  margin: 100px auto;
+  border-radius: 3%;
 }
