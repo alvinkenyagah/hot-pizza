@@ -11,12 +11,34 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
 //calculate cost of order
 
-var toppings = getElementById("topping").value;
-var crusts = getElementById("crusts").value;
-var sizes = getElementById("sizes").value;
-var delivery = getElementById("delivery").value;
-var npizzas = parseFloat(getElementById("npizzs").value);
 
-function myFunction() {
-  alert("Confirmed Your order:  ");
+
+function order(){
+
+  let toppings = document.getElementById("topping");
+  let crusts = document.getElementById("crusts");
+  let sizes = document.getElementById("sizes");
+  let delivery = document.getElementById("delivery");
+  let npizzas = document.querySelector('#npizza').value;
+
+  let cost = document.querySelector('#cost');
+
+
+let checkout = npizzas*(parseInt(delivery.value)+parseInt(sizes.value)+ parseInt(crusts.value)+ parseInt(toppings.value))
+
+console.log(checkout)
+
+
+let ordered = document.createElement('h1')
+
+
+ordered.textContent = "Your order will be delivered to your address"
+
+cost.append(ordered)
+
+
+
+
+
+
 }

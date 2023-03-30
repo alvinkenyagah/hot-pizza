@@ -105,9 +105,10 @@ ul li a:hover {
   background-color: #000;
   opacity: 0.75;
   width: 60%;
-  padding: 10px;
-  margin: 100px auto;
+  padding: 1%;
+  margin: 0 auto;
   border-radius: 3%;
+  margin-left: 20%;
 }
 
 footer {
