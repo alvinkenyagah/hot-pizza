@@ -29,12 +29,12 @@ let checkout = npizzas*(parseInt(delivery.value)+parseInt(sizes.value)+ parseInt
 console.log(checkout)
 
 
-let ordered = document.createElement('h1')
 
 
-ordered.textContent = "Your order will be delivered to your address"
 
-cost.append(ordered)
+let ordered= `Total cost: ${checkout} KSH`
+
+cost.innerHTML = ordered
 
 
 
