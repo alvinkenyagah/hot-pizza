@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font-family: poppins;
   height: 100%;
@@ -35,17 +40,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-* {
-  margin: 0px;
-  padding: 0px;
-}
 
 /* Navigation bar */
 #navbar {
@@ -102,7 +96,7 @@ ul li a:hover {
   content: "";
   position: absolute;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   z-index: -1;
   opacity: 0.9;
 }
