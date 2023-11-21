@@ -1,3 +1,47 @@
+body {
+  font-family: poppins;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.background img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(14px);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(70, 70, 70, 0.057);
+}
+
+
+
+
+
+
+
+
+
+
+
 * {
   margin: 0px;
   padding: 0px;
@@ -59,8 +103,8 @@ ul li a:hover {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url(https://lh3.googleusercontent.com/1Kiwoq9ZidTcMxcGbVdxdEERzA-vTaDp9RmnsBXTyUeLDthYkjwRWt3nhkAAMd7zPVK6qhSoYzjHCSGaOly4TiIVeDNmsiX4kgxiWC-jsiZcLmjaZZijQCJrdVpUyQPZsd6SrEQEnA=w2400)
-    no-repeat center center/cover;
+  /* background: url(https://lh3.googleusercontent.com/1Kiwoq9ZidTcMxcGbVdxdEERzA-vTaDp9RmnsBXTyUeLDthYkjwRWt3nhkAAMd7zPVK6qhSoYzjHCSGaOly4TiIVeDNmsiX4kgxiWC-jsiZcLmjaZZijQCJrdVpUyQPZsd6SrEQEnA=w2400)
+    no-repeat center center/cover; */
   z-index: -1;
   opacity: 0.9;
 }
