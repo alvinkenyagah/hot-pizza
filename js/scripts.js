@@ -55,9 +55,9 @@ function order() {
   // Display SweetAlert prompt for phone number
   Swal.fire({
     title: 'Enter your phone number',
-    input: 'text',
+    input: 'tel',
     showCancelButton: true,
-    confirmButtonText: 'Submit',
+    confirmButtonText: 'Order',
     cancelButtonText: 'Cancel',
     inputValidator: (value) => {
       if (!value) {
@@ -76,7 +76,9 @@ function order() {
         icon: 'success'
       });
 
+      cost.innerHTML = `Your order number:${orderNumber} costs:${checkout} KSH`
 
     }
-  });
+  })
+
 }
