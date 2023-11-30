@@ -50,7 +50,13 @@ function order() {
 
   let cost = document.querySelector('#cost');
 
+
+
   let checkout = npizzas * (parseInt(delivery.value) + parseInt(sizes.value) + parseInt(crusts.value) + parseInt(toppings.value));
+
+  if(checkout < 1){
+    cost.innerHTML = `Enter a valid amount of pizzas`
+  } else{
 
   // Display SweetAlert prompt for phone number
   Swal.fire({
@@ -81,4 +87,5 @@ function order() {
     }
   })
 
+}
 }
